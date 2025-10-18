@@ -1,44 +1,30 @@
-# vue-playground
+# 🪙 Crypto Converter App
 
-This template should help get you started developing with Vue 3 in Vite.
+Простое и быстрое веб-приложение для конвертации основных криптовалют в режиме реального времени. Создано с использованием Vue 3 для демонстрации навыков работы с Composition API, реактивностью и современным фронтенд-стеком.
 
-## Recommended IDE Setup
+## ✨ Основные возможности
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+* **Конвертация в реальном времени:** Мгновенная конвертация между популярными парами криптовалют (BTC, ETH, USDT и др.) благодаря стороннему API.
+* **Реактивный интерфейс:** Результат конвертации и ошибки обновляются мгновенно при изменении суммы или валюты.
+* **Список избранного:** Возможность сохранять часто используемые пары в Local Storage для быстрого доступа.
+* **Валидация ввода:** Проверка на пустые поля и невалидные суммы перед конвертацией.
+* **Адаптивный дизайн (Responsive Design):** Интерфейс отлично выглядит и удобен для использования как на настольных компьютерах, так и на мобильных устройствах.
 
-## Recommended Browser Setup
+## 🛠️ Стек технологий
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+* **Фреймворк:** [Vue 3](https://vuejs.org/) (Composition API)
+* **Сборщик:** [Vite](https://vitejs.dev/)
+* **Управление состоянием:** Реактивность Vue (`ref`, `watch`)
+* **Утилиты:** [VueUse](https://vueuse.org/) (для работы с Local Storage — `useStorage`)
+* **Конвертация:** `crypto-convert`
+* **Стилизация:** Чистый CSS с использованием медиазапросов для адаптивности.
 
-## Customize configuration
+## 🚀 Установка и запуск
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Для запуска проекта локально выполните следующие шаги:
 
-## Project Setup
+### 1. Клонирование репозитория
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+```bash
+git clone https://github.com/VladimirSivac/vue-crypto-converter
+cd crypto-converter-app
