@@ -27,10 +27,8 @@
 
 ## 🚀 Установка и запуск
 
-Для запуска проекта локально выполните следующие шаги:
-
-### 1. Клонирование репозитория
-
 ```bash
 git clone https://github.com/VladimirSivac/vue-crypto-converter
 cd crypto-converter-app
+npm install
+npm run dev
